@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cistercian2arabic"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+[project]
+dependencies = [
+  "Flask==2.3.3",
+  "Flask-SQLAlchemy==3.1.1",
+  "gunicorn==21.2.0",
+  "numpy>=2.1.0",
+  "opencv-python>=4.11.0",
+  "Pillow>=11.0.0",
+  "Werkzeug==2.3.7",
+  "email-validator==2.1.0.post1",
+  "psycopg2-binary>=2.9.10"
+]

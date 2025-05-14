@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env.bak/
+.venv/
+
+# macOS
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Flask / Gunicorn
+instance/
+.webassets-cache
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Test / coverage
+.coverage
+.tox/
+.nox/
+pytest_cache/
+htmlcov/
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# System files
+Thumbs.db
+ehthumbs.db
